@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- GitHub Pages image path fix -->
+    <title>SMART AI-DIGITAL STETHOSCOPE </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h2{
+            margin:50px;
+        }
+        body{
+            margin:0;
+            min-height: 100vh;
+
+            background-color:beige;
+            font-size:20px;
+            color:beige;
+            font-family: Arial,helvetica,sans-serif;
+            text-align:center;
+
+            background-image:url(/img/signal.jpg);
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+
+
+            }
+        .card{
+            background-color:#DDE0B6;
+            color:black;
+
+            margin:100px auto;
+            padding:60px;
+
+            width:500px;
+            height:500px;
+
+            box-sizing:border-box;
+            border-radius:20%;
+
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            box-shadow:0 0 10px 0 rgba(0,0,0,0.2);
+        }
+        input{
+            width:200px;
+            padding:5px;
+            margin:5px 0px 15px 0px;
+            box-sizing:border-box;
+            
+        }
+
+        .card h3 {
+                margin: 0 0 20px 0;
+}
+        .form-group{
+                    width:200px;
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                    margin-bottom:10px;
+                    
+
+}
+        .form-group label {
+    width:200px;
+    text-align:center;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius:5px;
+    border:1px solid #888;
+}
+
+
+
+        .card button {
+                    margin-top: 5px;
+                    padding: 8px 20px;
+                    border-radius:5px;
+                    border:1px solid #888;
+        }
+        .card button:hover{
+            background-color:#ddd;
+            cursor:pointer;
+        }
+
+    .sign-in{
+        margin:5px;
+        padding:5px;
+        gap:10px;
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    
+    }
+    .sign-in label{
+        font-size:20px;
+        color:black;
+        margin-top:15px;
+    }
+    .sign-in button{
+        margin:5px;
+        padding:5px;
+        width:200px;
+        border-radius:5px;
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+    }
+    .sign-in button:hover{
+        background-color:#ddd;
+        cursor:pointer;
+
+    }
+    .google img{
+        width:20px;
+        height:20px;
+        
+        
+    }
+    .github img{
+        width:20px;
+        height:20px;
+        
+
+    }
+    .style-text{
+        position:fixed;
+        bottom:0;
+        width:100vw;
+        height:35px;
+        left:0;
+        padding:0;
+        overflow:hidden;
+        background-color: rgba(0,0,0,0.6);
+        color:white;
+        display:flex;
+        align-items:center;
+
+    }
+    .slide-text p{
+        font-size:14px;
+        white-space:nowrap;
+        margin:10px;
+        animation:slide 11.5s linear infinite;
+    }
+    @keyframes slide{
+        from{
+            transform:translateX(100%);
+        }
+        to{
+            transform:translateX(-100%);
+
+        }
+    }
+    </style>
+
+</head>
+<body>
+    <h2>FOR REAL-TIME HEART SOUND ANALYSIS AND REMOTE CARDIAC MONITORING </h2>
+    <div class="card">
+        <h3>LOGIN</h3>
+        <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" placeholder="Enter Name" id="username">
+        </div>
+        <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter Password" id="password">
+        </div>
+        <button id="login-button">LOGIN</button>
+        <div class="sign-in">
+
+        <label>SIGN IN</label>
+
+        <button class="google">
+            <img src="/img/google icon.png" alt="GOOGLE">
+            Continue With Google
+        </button>
+        <button class="github">
+            <img src="/img/github icon.png" alt="GITHUB">
+            Continue With GitHub
+        </button>
+        </div>
+
+    </div>
+    <div class="slide-text">
+        <p>SMART AI-DIGITAL STETHOSCOPE IS A PORTABLE SYSTEM DESIGNED TO RECORD AND ANALYZE HEART SOUNDS, SUPPORTING HEART HEALTH MONITORING AND REMOTE CARDIAC ASSESSMENT. </p>
+
+    </div>
+</body>
+</html>
